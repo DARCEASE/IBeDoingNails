@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 //Purpose: to manage when the player chooses a specific nail style and polish 
 //Usage: Put this on a gamemanager game object 
 public class NailDesignManager : MonoBehaviour
@@ -11,6 +12,7 @@ public class NailDesignManager : MonoBehaviour
     public Image nailDisplay; //this is a display board, what are we showing the player? 
     public NailShapeOptions[] nailShapes; //referencing my custom class that holds data i ask them to hold 
     // Start is called before the first frame update
+    public GameObject finalDesignPanel;
     void Start()
     {
         
@@ -35,5 +37,13 @@ public class NailDesignManager : MonoBehaviour
        currentPolish = newNailPolish; // current shape will be determined by our index 
         nailDisplay.sprite = nailShapes[currentShape].polishType[currentPolish];
         
+    }
+    public void DesignReady()
+    {
+        finalDesignPanel.gameObject.SetActive(true);
+    }
+    public void ReturntoMain()
+    {
+        SceneManager.LoadScene("Title");
     }
 }

@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 //Purpose: to manage when the player chooses a specific nail style and polish 
 //Usage: Put this on a gamemanager game object 
 public class NailDesignManager : MonoBehaviour
 {
-    public GameObject[] NailShape;
-    public GameObject[] OvalPolish;
-    public GameObject[] SquarePolish;
-    public GameObject[] AlmondPolish;
+    public int currentShape; // they are ints bc they refer to the index of each array which is just numbers 
+    public int currentPolish; // most recently chosen options
+    public Image nailDisplay; //this is a display board, what are we showing the player? 
+    public NailShapeOptions[] nailShapes; //referencing my custom class that holds data i ask them to hold 
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +21,19 @@ public class NailDesignManager : MonoBehaviour
     {
         
     }
-    public void ChooseNailShape(int i)
+    public void ChooseNailShape(int newNailShape) // search for the current shape and polish selected - click on nail shape 
+    {// when i choose a nail shape, i can click through them as many times as i want and it will replace the shape i previously chose with the new one 
+       
+       currentShape = newNailShape; // current shape will be determined by our index 
+       nailDisplay.sprite = nailShapes[currentShape].polishType[currentPolish]; //reference each individual nail shape within the index 
+       
+        
+    }
+    public void ChooseNailPolish(int newNailPolish) // when you click on a nail polish
     {
-        NailShape[i].gameObject.SetActive(true);
+       
+       currentPolish = newNailPolish; // current shape will be determined by our index 
+        nailDisplay.sprite = nailShapes[currentShape].polishType[currentPolish];
+        
     }
 }

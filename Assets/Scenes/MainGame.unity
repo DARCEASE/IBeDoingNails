@@ -843,7 +843,7 @@ GameObject:
   - component: {fileID: 372433198}
   - component: {fileID: 372433197}
   m_Layer: 5
-  m_Name: almond
+  m_Name: StartingNailShape
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -866,8 +866,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 43.9637, y: -73.466896}
-  m_SizeDelta: {x: 382.8581, y: 303.0665}
+  m_AnchoredPosition: {x: 44.7, y: -73.5}
+  m_SizeDelta: {x: 388, y: 303}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &372433197
 MonoBehaviour:
@@ -1127,7 +1127,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 417447684}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1679317615}
+        m_TargetAssemblyTypeName: NailDesignManager, Assembly-CSharp
+        m_MethodName: ChooseNailPolish
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &417447684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2723,7 +2735,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1191225097}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1679317615}
+        m_TargetAssemblyTypeName: NailDesignManager, Assembly-CSharp
+        m_MethodName: ChooseNailPolish
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1191225097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3911,13 +3935,18 @@ MonoBehaviour:
   - shapeName: Almond
     polishType:
     - {fileID: 21300000, guid: c46e0ab05f4a147fb8bf81fc866d325f, type: 3}
-    - {fileID: 0}
+    - {fileID: 21300000, guid: d435e2c7406cf408199747c9988a59bb, type: 3}
+    - {fileID: 21300000, guid: b96ed702bb3be43bcb8d2f61d05cdc7d, type: 3}
   - shapeName: Oval
     polishType:
-    - {fileID: 21300000, guid: aa725e448bdbc4ae6b5dfaf30b469973, type: 3}
+    - {fileID: 21300000, guid: 741eb5aa842be46e7a86ea5e2883359d, type: 3}
+    - {fileID: 21300000, guid: 6a805e25c1f2748eabdc3e2a50032e39, type: 3}
+    - {fileID: 21300000, guid: 91b2acb0db8224658a2a96adefc85f64, type: 3}
   - shapeName: Square
     polishType:
-    - {fileID: 21300000, guid: d311d32758ec546718909a0841983b2f, type: 3}
+    - {fileID: 21300000, guid: aff21508d78eb4db984b2692bb113c5c, type: 3}
+    - {fileID: 21300000, guid: 6143816259f8b46b9b08ca3931e2f0db, type: 3}
+    - {fileID: 21300000, guid: 2ad5f7dffb0384f67b83e2f2f9f931ad, type: 3}
 --- !u!4 &1679317616
 Transform:
   m_ObjectHideFlags: 0

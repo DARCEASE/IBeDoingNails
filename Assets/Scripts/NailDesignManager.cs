@@ -27,7 +27,7 @@ public class NailDesignManager : MonoBehaviour
     {// when i choose a nail shape, i can click through them as many times as i want and it will replace the shape i previously chose with the new one 
        
        currentShape = newNailShape; // current shape will be determined by our index 
-       nailDisplay.sprite = nailShapes[currentShape].polishType[currentPolish]; //reference each individual nail shape within the index 
+       nailDisplay.sprite = nailShapes[currentShape].polishType[currentPolish]; //reference each individual nail shape within the index and replace the sprite with that
        
         
     }

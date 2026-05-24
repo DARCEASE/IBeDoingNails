@@ -53,10 +53,15 @@ public class NailDesignManager : MonoBehaviour
     }
     public void DesignReady()
     {   
+    
         audioSource.PlayOneShot(sparkleSFX);
         finalDesignPanel.gameObject.SetActive(true);
-        Instantiate(handPanel, transform.position, Quaternion.identity);
+        Instantiate(handPanel, transform.localPosition, Quaternion.identity);
         handPanel.transform.SetParent(finalDPanel); 
+        //grab the position of the handpanel and center it in the final design panel 
+        handPanel.GetComponent<RectTransform>().localPosition = new Vector3(-291.61f, -120f, 0f);
+        //handPanel.GetComponent<RectTransform>().rotation = 10f;
+        
     }
     public void ReturntoMain()
     {

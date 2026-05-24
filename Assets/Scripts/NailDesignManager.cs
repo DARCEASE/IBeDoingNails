@@ -13,6 +13,8 @@ public class NailDesignManager : MonoBehaviour
     public NailShapeOptions[] nailShapes; //referencing my custom class that holds data i ask them to hold 
     // Start is called before the first frame update
     public GameObject finalDesignPanel;
+    public GameObject handPanel;
+    public Transform finalDPanel; //da bones
     void Start()
     {
         
@@ -41,6 +43,8 @@ public class NailDesignManager : MonoBehaviour
     public void DesignReady()
     {
         finalDesignPanel.gameObject.SetActive(true);
+        Instantiate(handPanel, transform.position, Quaternion.identity);
+       handPanel.transform.SetParent(finalDPanel); 
     }
     public void ReturntoMain()
     {

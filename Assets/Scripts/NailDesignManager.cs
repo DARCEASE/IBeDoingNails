@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
+
 //Purpose: to manage when the player chooses a specific nail style and polish 
 //Usage: Put this on a gamemanager game object 
 public class NailDesignManager : MonoBehaviour
@@ -15,6 +17,12 @@ public class NailDesignManager : MonoBehaviour
     public GameObject finalDesignPanel;
     public GameObject handPanel;
     public Transform finalDPanel; //da bones
+
+    //sound 
+    public AudioSource audioSource;
+    public AudioClip mouseClickSFX;
+    public AudioClip sparkleSFX;
+    public AudioClip bloopSFX;
     void Start()
     {
         
@@ -23,7 +31,10 @@ public class NailDesignManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Mouse0)) //everytime you click with the mouse this sound should play
+        {
+            audioSource.PlayOneShot(mouseClickSFX);
+        }
     }
     public void ChooseNailShape(int newNailShape) // search for the current shape and polish selected - click on nail shape 
     {// when i choose a nail shape, i can click through them as many times as i want and it will replace the shape i previously chose with the new one 
@@ -41,13 +52,15 @@ public class NailDesignManager : MonoBehaviour
         
     }
     public void DesignReady()
-    {
+    {   
+        audioSource.PlayOneShot(sparkleSFX);
         finalDesignPanel.gameObject.SetActive(true);
         Instantiate(handPanel, transform.position, Quaternion.identity);
-       handPanel.transform.SetParent(finalDPanel); 
+        handPanel.transform.SetParent(finalDPanel); 
     }
     public void ReturntoMain()
     {
+        audioSource.PlayOneShot(bloopSFX);
         SceneManager.LoadScene("Title");
     }
 }

@@ -1,0 +1,1191 @@
+fileFormatVersion: 2
+guid: 21839ac6f55cd4d43912d99cc480cc86
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MarblesButterflySS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6328
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6839b2690cc460d97e95141fd08b38
+      internalID: 289385364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_1
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 6328
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847876bcd3fff464fa0bfaba85d41519
+      internalID: -121117698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_2
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 6328
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1f2dc6cfc4f4736ae355e7713564db
+      internalID: -128533024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_3
+      rect:
+        serializedVersion: 2
+        x: 3390
+        y: 6328
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c49c9707d254e10907036e5f2ba64c
+      internalID: 547487351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_4
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 6328
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0382091d40fba469eb08e696ec0cbd38
+      internalID: 1098766172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_5
+      rect:
+        serializedVersion: 2
+        x: 5650
+        y: 6328
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93c04ce7c60c4123b220ee0d5bd7e3e
+      internalID: -1646949428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5424
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89192ebe59e0e484bb44352daade174f
+      internalID: 2000598624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_7
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 5424
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186728e32976b4e589a776c6f9a4b0dc
+      internalID: -134947696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_8
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 5424
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41ca0736e481487fbce069605b252ae
+      internalID: -950839780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_9
+      rect:
+        serializedVersion: 2
+        x: 3390
+        y: 5424
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8419e7d1700940e99a8ef0139eb61e0
+      internalID: -2146952765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_10
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 5424
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f528a7873ef444c2b4f8c348d124640
+      internalID: 1543242693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_11
+      rect:
+        serializedVersion: 2
+        x: 5650
+        y: 5424
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2b4b4d3b0894bf9bbb7d8b12f18671
+      internalID: -1199949275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4520
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ed26fe8a6674ed7a5b36d0b63aa2a3
+      internalID: -1983887878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_13
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 4520
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c253e8a7d76b84342b09108b0b65cd72
+      internalID: 99398979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_14
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 4520
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153347670c3074bfda83fec59e453722
+      internalID: -964011923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_15
+      rect:
+        serializedVersion: 2
+        x: 3390
+        y: 4520
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1beb51626fd5245799e4594f458c4bf2
+      internalID: -2127648694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_16
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 4520
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366cd8485efbd44478412eca5c71adf4
+      internalID: -2022803684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_17
+      rect:
+        serializedVersion: 2
+        x: 5650
+        y: 4520
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0033648127009444ab41529e8974b55b
+      internalID: 578778920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3616
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcac8b0bbd6b6472b9f98ab8c5a0af8c
+      internalID: -1664247551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_19
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 3616
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec17e459b895a485bbd6449d05c2c6b5
+      internalID: -1510719958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_20
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 3616
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fb31a0a049347b8980b358fda869cf
+      internalID: -657231860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_21
+      rect:
+        serializedVersion: 2
+        x: 3390
+        y: 3616
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67b775940ca4430b8d407557900f1f2
+      internalID: 173375098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_22
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 3616
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc768a57a4e54460a2dad1373f72de9
+      internalID: -131330589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_23
+      rect:
+        serializedVersion: 2
+        x: 5650
+        y: 3616
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4552ea8a9d024167bcd0c820cd5c23e
+      internalID: -329931510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2712
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2182409ce31d425ea6216877819f0e7
+      internalID: -2048162433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_25
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 2712
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49952e12f66234d1780f038bb85e580b
+      internalID: -1255810493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_26
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 2712
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dd966734c854535a8bb694420f4859
+      internalID: 1966742071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_27
+      rect:
+        serializedVersion: 2
+        x: 3390
+        y: 2712
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e7f289a913948419b84dea36ae4c3b
+      internalID: 1675504474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_28
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 2712
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6293ac4ad4e1d46f78b4c591366c6ed9
+      internalID: 944274211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_29
+      rect:
+        serializedVersion: 2
+        x: 5650
+        y: 2712
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4282a4618b0ea4bd3a7b1199843891f9
+      internalID: -411975269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1808
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b2b2fd987df4212a49a9d91fa9a1a5
+      internalID: 311455044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_31
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1808
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fec32d1a417e4e839cab9a8b85b00bf
+      internalID: 1552766656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_32
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 1808
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e46734ad35d445db48821eaba487c4
+      internalID: -742653230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_33
+      rect:
+        serializedVersion: 2
+        x: 3390
+        y: 1808
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c15e6c7b28004ad9ac7fbeef69ed9aa
+      internalID: -735480249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_34
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 1808
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622fde3eae89b4381ac4336ce4a27f7c
+      internalID: 627124063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_35
+      rect:
+        serializedVersion: 2
+        x: 5650
+        y: 1808
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41beb2032e8e44e382930a0d3e24caf
+      internalID: -756544272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a141f87172024961a212c1ba7ea4ab0
+      internalID: 545020858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_37
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 904
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6bf356f48804ea097aa0d05d2dcc97
+      internalID: -804342333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_38
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 904
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718dc9c3fe52146cb9f14af7a784b0d6
+      internalID: -527070503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_39
+      rect:
+        serializedVersion: 2
+        x: 3390
+        y: 904
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2533e04d99e42da97005a851a6300a
+      internalID: -1335334399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_40
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 904
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1683487e70c5f447690a090834ebb9b2
+      internalID: -1701048793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_41
+      rect:
+        serializedVersion: 2
+        x: 5650
+        y: 904
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c60347fd7c3845238c8580acea1b264
+      internalID: 1259960616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60d2ea88420246b2aa63a582f346dad
+      internalID: 743193532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_43
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 0
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf03eefedcf4488684b06f3f0061020
+      internalID: -2090896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_44
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 0
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0350bf6417078409a867c5d04f437d6e
+      internalID: -41649105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_45
+      rect:
+        serializedVersion: 2
+        x: 3390
+        y: 0
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbb463ccfa4f46908bd78e1af308372
+      internalID: 1859037427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_46
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 0
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caeec7a05da774e4cab9b0ece2d7798c
+      internalID: 169173899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarblesButterflySS_47
+      rect:
+        serializedVersion: 2
+        x: 5650
+        y: 0
+        width: 1130
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 534258a3215e94bb7bb3802593d4ff64
+      internalID: 660582153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MarblesButterflySS_0: 289385364
+      MarblesButterflySS_1: -121117698
+      MarblesButterflySS_10: 1543242693
+      MarblesButterflySS_11: -1199949275
+      MarblesButterflySS_12: -1983887878
+      MarblesButterflySS_13: 99398979
+      MarblesButterflySS_14: -964011923
+      MarblesButterflySS_15: -2127648694
+      MarblesButterflySS_16: -2022803684
+      MarblesButterflySS_17: 578778920
+      MarblesButterflySS_18: -1664247551
+      MarblesButterflySS_19: -1510719958
+      MarblesButterflySS_2: -128533024
+      MarblesButterflySS_20: -657231860
+      MarblesButterflySS_21: 173375098
+      MarblesButterflySS_22: -131330589
+      MarblesButterflySS_23: -329931510
+      MarblesButterflySS_24: -2048162433
+      MarblesButterflySS_25: -1255810493
+      MarblesButterflySS_26: 1966742071
+      MarblesButterflySS_27: 1675504474
+      MarblesButterflySS_28: 944274211
+      MarblesButterflySS_29: -411975269
+      MarblesButterflySS_3: 547487351
+      MarblesButterflySS_30: 311455044
+      MarblesButterflySS_31: 1552766656
+      MarblesButterflySS_32: -742653230
+      MarblesButterflySS_33: -735480249
+      MarblesButterflySS_34: 627124063
+      MarblesButterflySS_35: -756544272
+      MarblesButterflySS_36: 545020858
+      MarblesButterflySS_37: -804342333
+      MarblesButterflySS_38: -527070503
+      MarblesButterflySS_39: -1335334399
+      MarblesButterflySS_4: 1098766172
+      MarblesButterflySS_40: -1701048793
+      MarblesButterflySS_41: 1259960616
+      MarblesButterflySS_42: 743193532
+      MarblesButterflySS_43: -2090896
+      MarblesButterflySS_44: -41649105
+      MarblesButterflySS_45: 1859037427
+      MarblesButterflySS_46: 169173899
+      MarblesButterflySS_47: 660582153
+      MarblesButterflySS_5: -1646949428
+      MarblesButterflySS_6: 2000598624
+      MarblesButterflySS_7: -134947696
+      MarblesButterflySS_8: -950839780
+      MarblesButterflySS_9: -2146952765
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

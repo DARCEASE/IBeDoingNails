@@ -298,7 +298,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &13
@@ -1026,7 +1026,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Art/Animations
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: /Users/darcygutierrez/Desktop/GameDev/IBeDoingNails
+  m_LastProjectPath: C:\Users\darce\OneDrive\Desktop\DarcyGames\IBeDoingNails
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:

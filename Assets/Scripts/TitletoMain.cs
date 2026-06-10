@@ -8,6 +8,7 @@ public class TitletoMain : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip bloopSFX;
     public AudioClip mouseClicking;
+    public GameObject creditsPanel;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,4 +28,16 @@ public class TitletoMain : MonoBehaviour
         audioSource.PlayOneShot(bloopSFX);
         SceneManager.LoadScene("MainGame");
     }
+    public void Credits()
+    {
+        audioSource.PlayOneShot(bloopSFX);
+        creditsPanel.SetActive(true);
+    }
+    public void ExitCredits()
+    {
+        audioSource.PlayOneShot(bloopSFX);
+        creditsPanel.SetActive(false);
+    }
+
+
 }

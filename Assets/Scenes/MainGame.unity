@@ -8271,8 +8271,8 @@ MonoBehaviour:
   spriteImage: {fileID: 1031023112}
   spriteOptions:
     accessoryName: 
-    defaultSprite: {fileID: 21300000, guid: 92c88653b5fa048f38760533fbcc49d8, type: 3}
-    heldSprite: {fileID: 21300000, guid: 0458570b770524a27ac9c5da93df74e9, type: 3}
+    defaultSprite: {fileID: 21300000, guid: 4558b815ef11c47cdb5bef2c3fcfebaa, type: 3}
+    heldSprite: {fileID: 21300000, guid: 1912100aa3b7047f3af4de119c4919e5, type: 3}
   returnToDefault: 1
   butterfly: {fileID: 0}
   butterflyBtn: {fileID: 0}

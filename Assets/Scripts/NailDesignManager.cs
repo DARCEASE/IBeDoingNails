@@ -15,8 +15,10 @@ public class NailDesignManager : MonoBehaviour
     public NailShapeOptions[] nailShapes; //referencing my custom class that holds data i ask them to hold 
     // Start is called before the first frame update
     public GameObject finalDesignPanel;
-    public GameObject handPanel;
+    public GameObject L_handPanel;
     public Transform finalDPanel; //da bones
+
+    public GameObject R_handPanel;
 
     //sound 
     public AudioSource audioSource;
@@ -53,14 +55,19 @@ public class NailDesignManager : MonoBehaviour
     }
     public void DesignReady()
     {   
-    
         audioSource.PlayOneShot(sparkleSFX);
         finalDesignPanel.gameObject.SetActive(true);
-        Instantiate(handPanel, transform.localPosition, Quaternion.identity);
-        handPanel.transform.SetParent(finalDPanel); 
+        R_handPanel = Instantiate(L_handPanel, transform.localPosition, Quaternion.identity);// instatiate new hand 
+       
+        L_handPanel.transform.SetParent(finalDPanel); 
+        R_handPanel.transform.SetParent(finalDPanel); 
         //grab the position of the handpanel and center it in the final design panel 
-        handPanel.GetComponent<RectTransform>().localPosition = new Vector3(-291.61f, -120f, 0f);
-        //handPanel.GetComponent<RectTransform>().rotation = 10f;
+        L_handPanel.GetComponent<RectTransform>().localPosition = new Vector3(-328.61f, -50f, 0f); //#s grabbed from placing it and copying info 
+        L_handPanel.GetComponent<RectTransform>().rotation = Quaternion.Euler(0f, 0f, 6.797f);
+       
+        R_handPanel.GetComponent<RectTransform>().localPosition = new Vector3(357f, 23f, 1f);
+        R_handPanel.GetComponent<RectTransform>().localScale = new Vector3(1f, 1f, 0f);
+        R_handPanel.GetComponent<RectTransform>().rotation = Quaternion.Euler(0f, 180f, -7.763f); //euler is specific to UI elements 
         
     }
     public void ReturntoMain()

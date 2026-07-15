@@ -36,7 +36,7 @@ public class DragandDrop : MonoBehaviour, IDragHandler, IPointerDownHandler
     }
  
    
-        void IDragHandler.OnDrag(PointerEventData eventData) // as youre draggging the mouse
+    void IDragHandler.OnDrag(PointerEventData eventData) // as youre draggging the mouse
     {
         
         dragRectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor; //grabs mvmt form previous mouse pos

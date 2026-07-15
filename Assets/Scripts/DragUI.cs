@@ -11,10 +11,16 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     public Transform parentAfterDrag;
     public Image spriteImage;
     public AccessoryOption spriteOptions;
+    public bool returnToDefault; // does the sprite return to how it was picked up or no 
+    public GameObject butterfly;
+    public GameObject butterflyBtn;
+    public Transform handPanel;
     Camera cam;
-     public void Start(){
+     public void Start()
+     {
           cam = Camera.main;
-          if (!spriteOptions.defaultSprite){
+          if (!spriteOptions.defaultSprite)
+          {
                Debug.LogError(gameObject.name + " does not have a valid default sprite");
           }
           
@@ -25,7 +31,8 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
    public void OnBeginDrag(PointerEventData eventData)
    {
         Debug.Log("Begin Dragging");
-        if (!spriteOptions.heldSprite){
+        if (!spriteOptions.heldSprite)
+        {
                Debug.LogError(gameObject.name + " does not have a valid held sprite");
           }
         spriteImage.sprite = spriteOptions.heldSprite;
@@ -43,10 +50,21 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
    }
    public void OnEndDrag(PointerEventData eventData)
    {
-     spriteImage.sprite = spriteOptions.defaultSprite;
-        Debug.Log("END Dragging");
-        transform.SetParent(parentAfterDrag); // reparent the item to the panel/grid its on 
-        //add a bool for "change after drag and for specific accessories make sure to set which ones chanage and which dont "
+     Debug.Log("END Dragging");
+     transform.SetParent(handPanel); // reparent the item to the panel/grid its on 
+     if(returnToDefault == true)
+     {
+           //add a bool for "change after drag and for specific accessories make sure to set which ones chanage and which dont 
+        spriteImage.sprite = spriteOptions.defaultSprite;  
+        transform.SetParent(handPanel); 
+     }
+        
+        
 
+   }
+   public void ButterflyFlyAway()
+   {
+     butterfly.SetActive(true); //just show the butterfly dog 
+     butterflyBtn.SetActive(false);
    }
 }

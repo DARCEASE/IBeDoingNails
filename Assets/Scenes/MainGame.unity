@@ -8687,10 +8687,9 @@ GameObject:
   - component: {fileID: 1087414478}
   - component: {fileID: 1087414477}
   - component: {fileID: 1087414481}
-  - component: {fileID: 1087414482}
   - component: {fileID: 1087414483}
   m_Layer: 5
-  m_Name: NailAccessory
+  m_Name: ButterflyNailAccessory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8732,8 +8731,8 @@ MonoBehaviour:
   spriteImage: {fileID: 1087414478}
   spriteOptions:
     accessoryName: 
-    defaultSprite: {fileID: 21300000, guid: c5c6debc1ead44d41aa099ddfbffe9ea, type: 3}
-    heldSprite: {fileID: 21300000, guid: c5c6debc1ead44d41aa099ddfbffe9ea, type: 3}
+    defaultSprite: {fileID: 21300000, guid: 0724837a32dcf4387ad2dcf1b9863c77, type: 3}
+    heldSprite: {fileID: 21300000, guid: 0724837a32dcf4387ad2dcf1b9863c77, type: 3}
   returnToDefault: 0
   butterfly: {fileID: 1087414475}
   butterflyBtn: {fileID: 982125639}
@@ -8758,7 +8757,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2132901190, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0724837a32dcf4387ad2dcf1b9863c77, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8783,7 +8782,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087414475}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8828,70 +8827,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1087414482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1087414475}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfc029396ee414a199d65cd61273e580, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  idleSprites:
-  - {fileID: -2132901190, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 906137898, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -29582002, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 547093522, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 783902004, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -474312167, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 1048919414, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 783230109, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 1291829824, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -1959435816, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 54891453, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -157157141, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -1396114805, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -1887231461, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 699979781, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 814288917, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -1153830462, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 1456170271, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -1890862792, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -116685639, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 215106904, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -1040806476, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 618764540, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -380276175, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 2106299991, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 828941623, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -1934079760, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 2091239681, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 2032438541, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -1952196275, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 2048129492, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 828481268, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -686535339, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -2050828383, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 706494812, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 1414593793, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 1034457736, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -1438906622, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -781253290, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -786282766, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -417242530, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -21463336, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -1103434602, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -1537978899, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -694071998, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: -192523291, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 1692857935, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  - {fileID: 1679024301, guid: 85d051c68f7414ec2aca4efbf9237f3e, type: 3}
-  frameRate: 0.1
-  currentFrame: 0
-  currentAnimation: []
 --- !u!95 &1087414483
 Animator:
   serializedVersion: 5
@@ -8900,7 +8835,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087414475}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 568a92a73ca294075a8e0d6b3ce85b36, type: 2}
   m_CullingMode: 0

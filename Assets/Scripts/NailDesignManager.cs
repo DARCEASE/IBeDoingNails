@@ -27,6 +27,7 @@ public class NailDesignManager : MonoBehaviour
     public AudioClip bloopSFX;
     public bool isDesignReady;
     public GameObject butterflyACC;
+    public bool butterflyChosen;
 
     void Start()
     {
@@ -73,16 +74,19 @@ public class NailDesignManager : MonoBehaviour
         L_handPanel.transform.SetParent(finalDPanel); 
         R_handPanel.transform.SetParent(finalDPanel); 
         //grab the position of the handpanel and center it in the final design panel 
-        L_handPanel.GetComponent<RectTransform>().localPosition = new Vector3(-328.61f, -50f, 0f); //#s grabbed from placing it and copying info 
+        L_handPanel.GetComponent<RectTransform>().localPosition = new Vector3(-328f, -54f, 0f); //#s grabbed from placing it and copying info 
         L_handPanel.GetComponent<RectTransform>().rotation = Quaternion.Euler(0f, 0f, 6.797f);
        
-        R_handPanel.GetComponent<RectTransform>().localPosition = new Vector3(357f, 23f, 1f);
+        R_handPanel.GetComponent<RectTransform>().localPosition = new Vector3(358f, 20.39f, 0f);
         R_handPanel.GetComponent<RectTransform>().localScale = new Vector3(1f, 1f, 0f);
-        R_handPanel.GetComponent<RectTransform>().rotation = Quaternion.Euler(0f, 180f, -7.763f); //euler is specific to UI elements 
+        R_handPanel.GetComponent<RectTransform>().rotation = Quaternion.Euler(0f, 180f, -6f); //euler is specific to UI elements 
         
-        RectTransform rectT = butterflyACC.GetComponent<RectTransform>(); //nickname for rect transform
-        rectT.localPosition = new Vector3(rectT.localPosition.x, rectT.localPosition.y, 0f); // force the butterfly to have a z of 0f
-
+        if (butterflyChosen == true)
+        {
+            RectTransform rectT = butterflyACC.GetComponent<RectTransform>(); //nickname for rect transform
+            rectT.localPosition = new Vector3(rectT.localPosition.x, rectT.localPosition.y, 0f); // force the butterfly to have a z of 0f
+        }
+        
     }
     
 }

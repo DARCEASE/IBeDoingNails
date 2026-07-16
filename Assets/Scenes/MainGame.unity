@@ -9754,7 +9754,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
@@ -9777,7 +9777,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14214,6 +14214,7 @@ MonoBehaviour:
   bloopSFX: {fileID: 8300000, guid: 2eafb677e6b794b3b8d2eb6e9c7b597a, type: 3}
   isDesignReady: 0
   butterflyACC: {fileID: 1087414475}
+  butterflyChosen: 0
 --- !u!4 &1679317616
 Transform:
   m_ObjectHideFlags: 0

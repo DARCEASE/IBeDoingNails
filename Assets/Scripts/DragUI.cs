@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.Rendering;
 //purpose: identify which accessory this is, what thew grad sprite looks like, and change it to the placeed sprite 
-//usage: place on the accessories themselves? 
+//usage: place on the accessories themselves, all accessories are ui images 
 public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     public Transform parentAfterDrag;
@@ -23,9 +23,10 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
 
      public void Start()
      {
+         //RectTransform rT = gameObject.GetComponent<RectTransform>();
           // store the starting position of each accessory
-          startingPos = new Vector2 (GetComponent<Transform>().position.x, GetComponent<Transform>().position.y); 
-          Debug.Log(startingPos);
+         // startingPos = new Vector2 (rT.localPosition.x, rT.localPosition.y); 
+          //Debug.Log(startingPos);
           
           cam = Camera.main;
           if (!spriteOptions.defaultSprite)
@@ -90,11 +91,16 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
        {
           Debug.Log("iM NO LONGER CONNECTED, exit");
         
+        // RectTransform rTransform = gameObject.GetComponent<RectTransform>();
+         //rTransform.localPosition = startingPos; // snap it back into place 
+
           if(GMScript.GetComponent<NailDesignManager>().isDesignReady == false) // IS THE FINAL DESIGN SET YET AND WERE LOOKING AT THE RESULTS? no. 
           {
+           
             Debug.Log("I returnth home");
             transform.SetParent(accessoryPanel); // Ok as youre editing, make sure to go back to the accessory panel, if its ready stay in handpanel 
             //set transform.z to 0 
+           
           }
 
        }
@@ -103,7 +109,7 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
  
     public void ButterflyFlyAway()
    {
-   
+     GMScript.GetComponent<NailDesignManager>().butterflyChosen = true;
      butterfly.SetActive(true); //just show the butterfly dog 
      butterflyBtn.SetActive(false);
      RectTransform rectT = butterfly.GetComponent<RectTransform>(); //nickname for rect transform

@@ -26,6 +26,8 @@ public class NailDesignManager : MonoBehaviour
     public AudioClip sparkleSFX;
     public AudioClip bloopSFX;
     public bool isDesignReady;
+    public GameObject butterflyACC;
+
     void Start()
     {
         
@@ -34,6 +36,7 @@ public class NailDesignManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+         
         if(Input.GetKeyDown(KeyCode.Mouse0)) //everytime you click with the mouse this sound should play
         {
             audioSource.PlayOneShot(mouseClickSFX);
@@ -54,6 +57,11 @@ public class NailDesignManager : MonoBehaviour
         nailDisplay.sprite = nailShapes[currentShape].polishType[currentPolish];
         
     }
+    public void ReturntoMain()
+    {
+        audioSource.PlayOneShot(bloopSFX);
+        SceneManager.LoadScene("Title");
+    }
     public void DesignReady()
     {   
         //disable dragging 
@@ -72,10 +80,9 @@ public class NailDesignManager : MonoBehaviour
         R_handPanel.GetComponent<RectTransform>().localScale = new Vector3(1f, 1f, 0f);
         R_handPanel.GetComponent<RectTransform>().rotation = Quaternion.Euler(0f, 180f, -7.763f); //euler is specific to UI elements 
         
+        RectTransform rectT = butterflyACC.GetComponent<RectTransform>(); //nickname for rect transform
+        rectT.localPosition = new Vector3(rectT.localPosition.x, rectT.localPosition.y, 0f); // force the butterfly to have a z of 0f
+
     }
-    public void ReturntoMain()
-    {
-        audioSource.PlayOneShot(bloopSFX);
-        SceneManager.LoadScene("Title");
-    }
+    
 }

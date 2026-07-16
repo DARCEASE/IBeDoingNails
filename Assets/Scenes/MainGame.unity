@@ -216,6 +216,7 @@ GameObject:
   - component: {fileID: 61847950}
   - component: {fileID: 61847949}
   - component: {fileID: 61847952}
+  - component: {fileID: 61847953}
   m_Layer: 5
   m_Name: AL_14
   m_TagString: Untagged
@@ -240,7 +241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 144.04999, y: -20.84}
+  m_AnchoredPosition: {x: 141.65007, y: -20.84}
   m_SizeDelta: {x: 51.67, y: 29.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &61847949
@@ -262,10 +263,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 80ec9ce36b37043e98d3c03fe3fdf3b8, type: 3}
     heldSprite: {fileID: 21300000, guid: 80ec9ce36b37043e98d3c03fe3fdf3b8, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &61847950
@@ -316,10 +317,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.060642242, y: -0.34812832}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -330,8 +331,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 50.615868, y: 29.342592}
   m_EdgeRadius: 0
+--- !u!50 &61847953
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61847947}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &65038013
 GameObject:
   m_ObjectHideFlags: 0
@@ -523,6 +545,7 @@ GameObject:
   - component: {fileID: 67193859}
   - component: {fileID: 67193858}
   - component: {fileID: 67193861}
+  - component: {fileID: 67193862}
   m_Layer: 5
   m_Name: AL_22
   m_TagString: Untagged
@@ -547,7 +570,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 115.80002, y: -98.5}
+  m_AnchoredPosition: {x: 127.61985, y: -98.5}
   m_SizeDelta: {x: 24.95, y: 25.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &67193858
@@ -569,10 +592,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 0a5dc692624ab4984ad54c2d1848a43b, type: 3}
     heldSprite: {fileID: 21300000, guid: 0a5dc692624ab4984ad54c2d1848a43b, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &67193859
@@ -623,7 +646,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -637,8 +660,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 25, y: 25}
   m_EdgeRadius: 0
+--- !u!50 &67193862
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67193856}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &75496766
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,6 +696,7 @@ GameObject:
   - component: {fileID: 75496769}
   - component: {fileID: 75496768}
   - component: {fileID: 75496771}
+  - component: {fileID: 75496772}
   m_Layer: 5
   m_Name: AL_6
   m_TagString: Untagged
@@ -676,7 +721,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -29, y: 46}
+  m_AnchoredPosition: {x: -30.2, y: 49.800003}
   m_SizeDelta: {x: 33.61, y: 30.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &75496768
@@ -698,10 +743,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: a036667ebeabd4cc2b1ed37978469b87, type: 3}
     heldSprite: {fileID: 21300000, guid: a036667ebeabd4cc2b1ed37978469b87, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &75496769
@@ -752,10 +797,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.12858725, y: 0.54232407}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -766,8 +811,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 22.784683, y: 16.584759}
   m_EdgeRadius: 0
+--- !u!50 &75496772
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75496766}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &118489070
 GameObject:
   m_ObjectHideFlags: 0
@@ -780,6 +846,8 @@ GameObject:
   - component: {fileID: 118489074}
   - component: {fileID: 118489073}
   - component: {fileID: 118489072}
+  - component: {fileID: 118489076}
+  - component: {fileID: 118489075}
   m_Layer: 5
   m_Name: Ring_8
   m_TagString: Untagged
@@ -804,7 +872,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1207, y: -93}
+  m_AnchoredPosition: {x: 1212, y: -93}
   m_SizeDelta: {x: 97.777, y: 66.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &118489072
@@ -826,10 +894,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: da362e04d7ef44e1da0ea0fe54bc0d1d, type: 3}
     heldSprite: {fileID: 21300000, guid: bfbf3fa8d40634873a168e43a750f708, type: 3}
   returnToDefault: 1
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &118489073
@@ -870,6 +938,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118489070}
   m_CullTransparentMesh: 1
+--- !u!50 &118489075
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118489070}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &118489076
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118489070}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 90, y: 50}
+  m_EdgeRadius: 0
 --- !u!1 &135099482
 GameObject:
   m_ObjectHideFlags: 0
@@ -6107,6 +6222,7 @@ GameObject:
   - component: {fileID: 318494299}
   - component: {fileID: 318494298}
   - component: {fileID: 318494301}
+  - component: {fileID: 318494302}
   m_Layer: 5
   m_Name: AL_4
   m_TagString: Untagged
@@ -6131,7 +6247,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 131.1, y: 125.54}
+  m_AnchoredPosition: {x: 132.3, y: 125.54}
   m_SizeDelta: {x: 51.83, y: 48.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &318494298
@@ -6153,10 +6269,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 27a641801a6ae408eac7d040e04fff49, type: 3}
     heldSprite: {fileID: 21300000, guid: 27a641801a6ae408eac7d040e04fff49, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &318494299
@@ -6207,10 +6323,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 4.8333807, y: 1.0062885}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6221,8 +6337,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 45.432037, y: 46.53886}
   m_EdgeRadius: 0
+--- !u!50 &318494302
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318494296}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &325588579
 GameObject:
   m_ObjectHideFlags: 0
@@ -6255,7 +6392,6 @@ RectTransform:
   m_Children:
   - {fileID: 1256094021}
   - {fileID: 135099483}
-  - {fileID: 1087414476}
   m_Father: {fileID: 1438742685}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6471,6 +6607,7 @@ GameObject:
   - component: {fileID: 369525225}
   - component: {fileID: 369525224}
   - component: {fileID: 369525227}
+  - component: {fileID: 369525228}
   m_Layer: 5
   m_Name: AL_8
   m_TagString: Untagged
@@ -6495,7 +6632,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 63.730026, y: 51.930004}
+  m_AnchoredPosition: {x: 61.929993, y: 51.930004}
   m_SizeDelta: {x: 47.95, y: 42.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &369525224
@@ -6517,10 +6654,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 575f4d95c1e6a4197993dde4b260734e, type: 3}
     heldSprite: {fileID: 21300000, guid: 575f4d95c1e6a4197993dde4b260734e, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &369525225
@@ -6571,10 +6708,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.46632385, y: 1.0757189}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6585,8 +6722,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 38.522926, y: 28.576662}
   m_EdgeRadius: 0
+--- !u!50 &369525228
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369525222}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &372433195
 GameObject:
   m_ObjectHideFlags: 0
@@ -6888,6 +7046,7 @@ GameObject:
   - component: {fileID: 458767110}
   - component: {fileID: 458767109}
   - component: {fileID: 458767112}
+  - component: {fileID: 458767113}
   m_Layer: 5
   m_Name: AL_10
   m_TagString: Untagged
@@ -6912,7 +7071,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 147.00002, y: 46}
+  m_AnchoredPosition: {x: 147.9, y: 49.8}
   m_SizeDelta: {x: 33.61, y: 30.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &458767109
@@ -6934,10 +7093,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 0020d184c5852482fb269769b60b0dd8, type: 3}
     heldSprite: {fileID: 21300000, guid: 0020d184c5852482fb269769b60b0dd8, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &458767110
@@ -6988,10 +7147,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.13604784, y: -0.40559196}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7002,8 +7161,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 28.583004, y: 28.580193}
   m_EdgeRadius: 0
+--- !u!50 &458767113
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458767107}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &466732146
 GameObject:
   m_ObjectHideFlags: 0
@@ -7118,7 +7298,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.306997, y: 129}
+  m_AnchoredPosition: {x: 5.2, y: 129}
   m_SizeDelta: {x: 63.534, y: 59.33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &493473213
@@ -7140,8 +7320,8 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: a51cf3a5ab78944609a31c87e204bd33, type: 3}
     heldSprite: {fileID: 21300000, guid: a51cf3a5ab78944609a31c87e204bd33, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
   accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
@@ -7194,10 +7374,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.17062378, y: -3.5961914}
+  m_Offset: {x: 0.7005024, y: -0.11162186}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -7208,7 +7388,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 38.39154, y: 33.363678}
+  m_Size: {x: 59.87974, y: 60.07876}
   m_EdgeRadius: 0
 --- !u!50 &493473217
 Rigidbody2D:
@@ -7243,6 +7423,8 @@ GameObject:
   - component: {fileID: 519724601}
   - component: {fileID: 519724600}
   - component: {fileID: 519724599}
+  - component: {fileID: 519724603}
+  - component: {fileID: 519724602}
   m_Layer: 5
   m_Name: Ring_2
   m_TagString: Untagged
@@ -7267,7 +7449,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1287, y: 129}
+  m_AnchoredPosition: {x: 1275.6, y: 128.3}
   m_SizeDelta: {x: 111.82, y: 95.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &519724599
@@ -7289,10 +7471,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: d1c9339498d8f43b1b0d28725c55c321, type: 3}
     heldSprite: {fileID: 21300000, guid: 1900939ec07754501aee257dba2785ea, type: 3}
   returnToDefault: 1
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &519724600
@@ -7333,6 +7515,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519724597}
   m_CullTransparentMesh: 1
+--- !u!50 &519724602
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519724597}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &519724603
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519724597}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 75, y: 75}
+  m_EdgeRadius: 0
 --- !u!1 &568178744
 GameObject:
   m_ObjectHideFlags: 0
@@ -7481,7 +7710,7 @@ GameObject:
   - component: {fileID: 681526604}
   m_Layer: 5
   m_Name: Bounds
-  m_TagString: Untagged
+  m_TagString: Bounds
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7503,8 +7732,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29.43, y: -221.8}
-  m_SizeDelta: {x: 396.33, y: 636.4}
+  m_AnchoredPosition: {x: 28.61, y: -221.8}
+  m_SizeDelta: {x: 414.28, y: 636.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &681526601
 MonoBehaviour:
@@ -7519,7 +7748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5372549}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7736,6 +7965,8 @@ GameObject:
   - component: {fileID: 734714305}
   - component: {fileID: 734714304}
   - component: {fileID: 734714303}
+  - component: {fileID: 734714307}
+  - component: {fileID: 734714306}
   m_Layer: 5
   m_Name: Ring_3
   m_TagString: Untagged
@@ -7760,7 +7991,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1216, y: 54}
+  m_AnchoredPosition: {x: 1208.1, y: 54}
   m_SizeDelta: {x: 101.33, y: 101.33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &734714303
@@ -7782,10 +8013,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: ed01c6f877e0842bca60e8298cb3d397, type: 3}
     heldSprite: {fileID: 21300000, guid: a9e365d54398549fa9e097c57a57a868, type: 3}
   returnToDefault: 1
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &734714304
@@ -7826,6 +8057,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 734714301}
   m_CullTransparentMesh: 1
+--- !u!50 &734714306
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734714301}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &734714307
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734714301}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 75, y: 75}
+  m_EdgeRadius: 0
 --- !u!1 &756524562
 GameObject:
   m_ObjectHideFlags: 0
@@ -7963,6 +8241,7 @@ RectTransform:
   - {fileID: 1490464924}
   - {fileID: 1752245606}
   - {fileID: 1416976286}
+  - {fileID: 1087414476}
   m_Father: {fileID: 1256094021}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7984,6 +8263,7 @@ GameObject:
   - component: {fileID: 818964504}
   - component: {fileID: 818964503}
   - component: {fileID: 818964506}
+  - component: {fileID: 818964507}
   m_Layer: 5
   m_Name: AL_5
   m_TagString: Untagged
@@ -8008,7 +8288,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -73.270004, y: 51.930004}
+  m_AnchoredPosition: {x: -77, y: 51.930004}
   m_SizeDelta: {x: 47.95, y: 42.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &818964503
@@ -8030,10 +8310,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: d6af6a81d643b42a38d801686fe619c2, type: 3}
     heldSprite: {fileID: 21300000, guid: d6af6a81d643b42a38d801686fe619c2, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &818964504
@@ -8084,10 +8364,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.7779608, y: -0.17949104}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -8098,8 +8378,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 31.034079, y: 27.921352}
   m_EdgeRadius: 0
+--- !u!50 &818964507
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818964501}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &896392964
 GameObject:
   m_ObjectHideFlags: 0
@@ -8113,6 +8414,7 @@ GameObject:
   - component: {fileID: 896392967}
   - component: {fileID: 896392966}
   - component: {fileID: 896392969}
+  - component: {fileID: 896392970}
   m_Layer: 5
   m_Name: AL_23
   m_TagString: Untagged
@@ -8137,7 +8439,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 143.6, y: -98.5}
+  m_AnchoredPosition: {x: 156.61987, y: -98.5}
   m_SizeDelta: {x: 24.95, y: 25.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &896392966
@@ -8159,10 +8461,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: c1ff0acf2fb27400cbf5e08651a3ee87, type: 3}
     heldSprite: {fileID: 21300000, guid: c1ff0acf2fb27400cbf5e08651a3ee87, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &896392967
@@ -8213,7 +8515,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8227,8 +8529,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 25, y: 25}
   m_EdgeRadius: 0
+--- !u!50 &896392970
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896392964}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &926281393
 GameObject:
   m_ObjectHideFlags: 0
@@ -8451,6 +8774,7 @@ GameObject:
   - component: {fileID: 971615915}
   - component: {fileID: 971615914}
   - component: {fileID: 971615917}
+  - component: {fileID: 971615918}
   m_Layer: 5
   m_Name: AL_25
   m_TagString: Untagged
@@ -8475,7 +8799,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -22.879982, y: -169.99997}
+  m_AnchoredPosition: {x: -22.199982, y: -167.2}
   m_SizeDelta: {x: 27.01, y: 26.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &971615914
@@ -8497,10 +8821,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: c3007dded92c04793bf8d9fb9199f362, type: 3}
     heldSprite: {fileID: 21300000, guid: c3007dded92c04793bf8d9fb9199f362, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &971615915
@@ -8551,7 +8875,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8565,8 +8889,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 25, y: 25}
   m_EdgeRadius: 0
+--- !u!50 &971615918
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971615912}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &981714246
 GameObject:
   m_ObjectHideFlags: 0
@@ -8736,7 +9081,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -59, y: 129.00002}
+  m_AnchoredPosition: {x: -70.6, y: 129.00002}
   m_SizeDelta: {x: 73.08, y: 55.31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &982125641
@@ -8845,6 +9190,8 @@ GameObject:
   - component: {fileID: 1031023113}
   - component: {fileID: 1031023112}
   - component: {fileID: 1031023111}
+  - component: {fileID: 1031023115}
+  - component: {fileID: 1031023114}
   m_Layer: 5
   m_Name: Ring_4
   m_TagString: Untagged
@@ -8869,7 +9216,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1115, y: -17}
+  m_AnchoredPosition: {x: 1115, y: -14.9}
   m_SizeDelta: {x: 73.41, y: 29.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1031023111
@@ -8891,10 +9238,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 4558b815ef11c47cdb5bef2c3fcfebaa, type: 3}
     heldSprite: {fileID: 21300000, guid: 1912100aa3b7047f3af4de119c4919e5, type: 3}
   returnToDefault: 1
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1031023112
@@ -8935,6 +9282,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031023109}
   m_CullTransparentMesh: 1
+--- !u!50 &1031023114
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031023109}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &1031023115
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031023109}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 70, y: 30}
+  m_EdgeRadius: 0
 --- !u!1 &1065550640
 GameObject:
   m_ObjectHideFlags: 0
@@ -8948,6 +9342,7 @@ GameObject:
   - component: {fileID: 1065550643}
   - component: {fileID: 1065550642}
   - component: {fileID: 1065550645}
+  - component: {fileID: 1065550646}
   m_Layer: 5
   m_Name: AL_20
   m_TagString: Untagged
@@ -8972,7 +9367,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 54.91992, y: -98.5}
+  m_AnchoredPosition: {x: 63.100082, y: -98.5}
   m_SizeDelta: {x: 24.95, y: 25.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1065550642
@@ -8994,10 +9389,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 368a52a88e1924aaea38b8322eecbd57, type: 3}
     heldSprite: {fileID: 21300000, guid: 368a52a88e1924aaea38b8322eecbd57, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1065550643
@@ -9048,7 +9443,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9062,8 +9457,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 25, y: 25}
   m_EdgeRadius: 0
+--- !u!50 &1065550646
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065550640}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1077847910
 GameObject:
   m_ObjectHideFlags: 0
@@ -9076,6 +9492,8 @@ GameObject:
   - component: {fileID: 1077847914}
   - component: {fileID: 1077847913}
   - component: {fileID: 1077847912}
+  - component: {fileID: 1077847916}
+  - component: {fileID: 1077847915}
   m_Layer: 5
   m_Name: Ring_6
   m_TagString: Untagged
@@ -9100,7 +9518,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1301, y: -18}
+  m_AnchoredPosition: {x: 1303, y: -18}
   m_SizeDelta: {x: 73.41, y: 29.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1077847912
@@ -9122,10 +9540,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 91b7e98e30e6241c1a85cd3c5d8f5cf7, type: 3}
     heldSprite: {fileID: 21300000, guid: 3ea5b9d02f3474a73ad5c1498b3c0ade, type: 3}
   returnToDefault: 1
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1077847913
@@ -9166,6 +9584,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077847910}
   m_CullTransparentMesh: 1
+--- !u!50 &1077847915
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077847910}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &1077847916
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077847910}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 70, y: 30}
+  m_EdgeRadius: 0
 --- !u!1 &1087414475
 GameObject:
   m_ObjectHideFlags: 0
@@ -9180,6 +9645,8 @@ GameObject:
   - component: {fileID: 1087414477}
   - component: {fileID: 1087414481}
   - component: {fileID: 1087414483}
+  - component: {fileID: 1087414485}
+  - component: {fileID: 1087414484}
   m_Layer: 5
   m_Name: ButterflyNailAccessory
   m_TagString: Untagged
@@ -9199,12 +9666,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 325588580}
-  m_RootOrder: 2
+  m_Father: {fileID: 776642244}
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16, y: 283}
+  m_AnchoredPosition: {x: 17.000061, y: 256}
   m_SizeDelta: {x: 268.09, y: 239.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1087414477
@@ -9220,7 +9687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentAfterDrag: {fileID: 0}
-  spriteImage: {fileID: 0}
+  spriteImage: {fileID: 1087414478}
   spriteOptions:
     accessoryName: 
     defaultSprite: {fileID: 21300000, guid: 0724837a32dcf4387ad2dcf1b9863c77, type: 3}
@@ -9229,9 +9696,9 @@ MonoBehaviour:
   butterfly: {fileID: 1087414475}
   butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
-  GMScript: {fileID: 0}
+  GMScript: {fileID: 1679317614}
 --- !u!114 &1087414478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9343,6 +9810,53 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!61 &1087414484
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087414475}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.000015258789, y: 44.494568}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 267.74985, y: 250.159}
+  m_EdgeRadius: 0
+--- !u!50 &1087414485
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087414475}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1091000015
 GameObject:
   m_ObjectHideFlags: 0
@@ -9488,6 +10002,8 @@ GameObject:
   - component: {fileID: 1112185950}
   - component: {fileID: 1112185949}
   - component: {fileID: 1112185948}
+  - component: {fileID: 1112185952}
+  - component: {fileID: 1112185951}
   m_Layer: 5
   m_Name: Ring_7
   m_TagString: Untagged
@@ -9534,10 +10050,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: f39be3bee87d74f4183a68eaa9e1f38b, type: 3}
     heldSprite: {fileID: 21300000, guid: 3ee5102403bdb4369accde5ac840370f, type: 3}
   returnToDefault: 1
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1112185949
@@ -9578,6 +10094,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1112185946}
   m_CullTransparentMesh: 1
+--- !u!50 &1112185951
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112185946}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &1112185952
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112185946}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 70, y: 30}
+  m_EdgeRadius: 0
 --- !u!1 &1143211847
 GameObject:
   m_ObjectHideFlags: 0
@@ -9856,6 +10419,8 @@ GameObject:
   - component: {fileID: 1165778383}
   - component: {fileID: 1165778382}
   - component: {fileID: 1165778381}
+  - component: {fileID: 1165778385}
+  - component: {fileID: 1165778384}
   m_Layer: 5
   m_Name: Ring_5
   m_TagString: Untagged
@@ -9880,7 +10445,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1206, y: -20}
+  m_AnchoredPosition: {x: 1212, y: -19.5}
   m_SizeDelta: {x: 73.41, y: 29.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1165778381
@@ -9902,10 +10467,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: cffb1a2100aa64a6eaf89bc08770672c, type: 3}
     heldSprite: {fileID: 21300000, guid: f85ca8184e9d9442ebae1f3cfdcb671f, type: 3}
   returnToDefault: 1
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1165778382
@@ -9946,6 +10511,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1165778379}
   m_CullTransparentMesh: 1
+--- !u!50 &1165778384
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165778379}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &1165778385
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165778379}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 70, y: 30}
+  m_EdgeRadius: 0
 --- !u!1 &1168096331
 GameObject:
   m_ObjectHideFlags: 0
@@ -10092,6 +10704,7 @@ GameObject:
   - component: {fileID: 1181638317}
   - component: {fileID: 1181638316}
   - component: {fileID: 1181638319}
+  - component: {fileID: 1181638320}
   m_Layer: 5
   m_Name: AL_9
   m_TagString: Untagged
@@ -10116,7 +10729,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 108.000046, y: 46}
+  m_AnchoredPosition: {x: 108.29999, y: 49.8}
   m_SizeDelta: {x: 33.61, y: 30.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1181638316
@@ -10138,10 +10751,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 7ba28db800ba2478b8119d7f9a628761, type: 3}
     heldSprite: {fileID: 21300000, guid: 7ba28db800ba2478b8119d7f9a628761, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1181638317
@@ -10192,10 +10805,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.3229723, y: -1.1517882}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -10206,8 +10819,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 27.800367, y: 22.282078}
   m_EdgeRadius: 0
+--- !u!50 &1181638320
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181638314}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1191225094
 GameObject:
   m_ObjectHideFlags: 0
@@ -10354,6 +10988,7 @@ GameObject:
   - component: {fileID: 1197391972}
   - component: {fileID: 1197391971}
   - component: {fileID: 1197391974}
+  - component: {fileID: 1197391975}
   m_Layer: 5
   m_Name: AL_26
   m_TagString: Untagged
@@ -10378,7 +11013,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 15.160019, y: -169.99997}
+  m_AnchoredPosition: {x: 15.400019, y: -166.1}
   m_SizeDelta: {x: 36.58, y: 36.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1197391971
@@ -10400,10 +11035,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 13131b822c28d45728f146608bc0c062, type: 3}
     heldSprite: {fileID: 21300000, guid: 13131b822c28d45728f146608bc0c062, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1197391972
@@ -10454,7 +11089,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10468,8 +11103,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 35, y: 35}
   m_EdgeRadius: 0
+--- !u!50 &1197391975
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197391969}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1256094020
 GameObject:
   m_ObjectHideFlags: 0
@@ -10726,6 +11382,7 @@ GameObject:
   - component: {fileID: 1287888753}
   - component: {fileID: 1287888752}
   - component: {fileID: 1287888755}
+  - component: {fileID: 1287888756}
   m_Layer: 5
   m_Name: AL_12
   m_TagString: Untagged
@@ -10750,7 +11407,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.3700237, y: -20.84}
+  m_AnchoredPosition: {x: 3.4, y: -20.84}
   m_SizeDelta: {x: 51.67, y: 29.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1287888752
@@ -10772,10 +11429,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 1126096f51e334b0bb1487700ebaec64, type: 3}
     heldSprite: {fileID: 21300000, guid: 1126096f51e334b0bb1487700ebaec64, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1287888753
@@ -10826,10 +11483,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0000076293945, y: -0.45837116}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -10840,8 +11497,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 50.50492, y: 29.419474}
   m_EdgeRadius: 0
+--- !u!50 &1287888756
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287888750}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1289138379
 GameObject:
   m_ObjectHideFlags: 0
@@ -10930,6 +11608,8 @@ GameObject:
   - component: {fileID: 1306109463}
   - component: {fileID: 1306109462}
   - component: {fileID: 1306109461}
+  - component: {fileID: 1306109465}
+  - component: {fileID: 1306109464}
   m_Layer: 5
   m_Name: Ring_11
   m_TagString: Untagged
@@ -10976,10 +11656,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 7553e0181d31f48b18c251369adb0532, type: 3}
     heldSprite: {fileID: 21300000, guid: 3ef87236dc84b4255a28f3aefc14d2af, type: 3}
   returnToDefault: 1
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1306109462
@@ -11020,6 +11700,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1306109459}
   m_CullTransparentMesh: 1
+--- !u!50 &1306109464
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306109459}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &1306109465
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306109459}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 60, y: 60}
+  m_EdgeRadius: 0
 --- !u!1 &1336531004
 GameObject:
   m_ObjectHideFlags: 0
@@ -11188,6 +11915,8 @@ GameObject:
   - component: {fileID: 1347043801}
   - component: {fileID: 1347043800}
   - component: {fileID: 1347043802}
+  - component: {fileID: 1347043804}
+  - component: {fileID: 1347043803}
   m_Layer: 5
   m_Name: Ring_1
   m_TagString: Untagged
@@ -11212,7 +11941,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1137, y: 133.1}
+  m_AnchoredPosition: {x: 1124.8, y: 138.8}
   m_SizeDelta: {x: 102.27, y: 87.753}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1347043800
@@ -11272,12 +12001,59 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 92c88653b5fa048f38760533fbcc49d8, type: 3}
     heldSprite: {fileID: 21300000, guid: 0458570b770524a27ac9c5da93df74e9, type: 3}
   returnToDefault: 1
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
+--- !u!50 &1347043803
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347043798}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &1347043804
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347043798}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 70, y: 70}
+  m_EdgeRadius: 0
 --- !u!1 &1392825202
 GameObject:
   m_ObjectHideFlags: 0
@@ -11291,6 +12067,7 @@ GameObject:
   - component: {fileID: 1392825205}
   - component: {fileID: 1392825204}
   - component: {fileID: 1392825207}
+  - component: {fileID: 1392825208}
   m_Layer: 5
   m_Name: AL_17
   m_TagString: Untagged
@@ -11315,7 +12092,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -32.9, y: -98.5}
+  m_AnchoredPosition: {x: -32.00001, y: -98.5}
   m_SizeDelta: {x: 24.95, y: 25.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1392825204
@@ -11337,10 +12114,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: e31d041a9167646a69e2e81bc24cfada, type: 3}
     heldSprite: {fileID: 21300000, guid: e31d041a9167646a69e2e81bc24cfada, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1392825205
@@ -11391,7 +12168,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -11405,8 +12182,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 25, y: 25}
   m_EdgeRadius: 0
+--- !u!50 &1392825208
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392825202}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1393935920
 GameObject:
   m_ObjectHideFlags: 0
@@ -11631,6 +12429,7 @@ GameObject:
   - component: {fileID: 1416976288}
   - component: {fileID: 1416976287}
   - component: {fileID: 1416976290}
+  - component: {fileID: 1416976291}
   m_Layer: 5
   m_Name: AL_29
   m_TagString: Untagged
@@ -11655,7 +12454,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 156, y: -169.99997}
+  m_AnchoredPosition: {x: 152.50003, y: -164.9}
   m_SizeDelta: {x: 32.08, y: 32.08}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1416976287
@@ -11677,10 +12476,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 846cbefa778404eb0aeeaa38c950ecca, type: 3}
     heldSprite: {fileID: 21300000, guid: 846cbefa778404eb0aeeaa38c950ecca, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1416976288
@@ -11731,7 +12530,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -11745,8 +12544,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 30, y: 30}
   m_EdgeRadius: 0
+--- !u!50 &1416976291
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1416976285}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1438742681
 GameObject:
   m_ObjectHideFlags: 0
@@ -11870,6 +12690,7 @@ GameObject:
   - component: {fileID: 1481830144}
   - component: {fileID: 1481830143}
   - component: {fileID: 1481830146}
+  - component: {fileID: 1481830147}
   m_Layer: 5
   m_Name: AL_24
   m_TagString: Untagged
@@ -11894,7 +12715,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -69.99999, y: -169.99997}
+  m_AnchoredPosition: {x: -72, y: -164.7}
   m_SizeDelta: {x: 60.78, y: 60.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1481830143
@@ -11916,10 +12737,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 5ed79540554f5418596e774c6baf8446, type: 3}
     heldSprite: {fileID: 21300000, guid: 5ed79540554f5418596e774c6baf8446, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1481830144
@@ -11970,10 +12791,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.20402908, y: 0.36684036}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -11984,8 +12805,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 58.537132, y: 57.786087}
   m_EdgeRadius: 0
+--- !u!50 &1481830147
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481830141}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1487872917
 GameObject:
   m_ObjectHideFlags: 0
@@ -12134,6 +12976,7 @@ GameObject:
   - component: {fileID: 1490464926}
   - component: {fileID: 1490464925}
   - component: {fileID: 1490464928}
+  - component: {fileID: 1490464929}
   m_Layer: 5
   m_Name: AL_27
   m_TagString: Untagged
@@ -12158,7 +13001,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 60.000008, y: -169.99997}
+  m_AnchoredPosition: {x: 58.800022, y: -168}
   m_SizeDelta: {x: 40.52, y: 38.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1490464925
@@ -12180,10 +13023,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: c6bced589760e4d0b8d8e5be7849faa7, type: 3}
     heldSprite: {fileID: 21300000, guid: c6bced589760e4d0b8d8e5be7849faa7, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1490464926
@@ -12234,7 +13077,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -12248,8 +13091,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 40, y: 40}
   m_EdgeRadius: 0
+--- !u!50 &1490464929
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490464923}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1490765232
 GameObject:
   m_ObjectHideFlags: 0
@@ -12262,6 +13126,8 @@ GameObject:
   - component: {fileID: 1490765236}
   - component: {fileID: 1490765235}
   - component: {fileID: 1490765234}
+  - component: {fileID: 1490765238}
+  - component: {fileID: 1490765237}
   m_Layer: 5
   m_Name: Ring_10
   m_TagString: Untagged
@@ -12308,10 +13174,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: d2cffdf4e47ab479b801a4032c697288, type: 3}
     heldSprite: {fileID: 21300000, guid: 1f82517d06275412091dad940f697121, type: 3}
   returnToDefault: 1
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1490765235
@@ -12352,6 +13218,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1490765232}
   m_CullTransparentMesh: 1
+--- !u!50 &1490765237
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490765232}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &1490765238
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490765232}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 60, y: 70}
+  m_EdgeRadius: 0
 --- !u!1 &1517164051
 GameObject:
   m_ObjectHideFlags: 0
@@ -12521,6 +13434,7 @@ GameObject:
   - component: {fileID: 1579501021}
   - component: {fileID: 1579501020}
   - component: {fileID: 1579501023}
+  - component: {fileID: 1579501024}
   m_Layer: 5
   m_Name: AL_7
   m_TagString: Untagged
@@ -12545,7 +13459,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10.000016, y: 46}
+  m_AnchoredPosition: {x: 10.4, y: 49.8}
   m_SizeDelta: {x: 33.61, y: 30.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1579501020
@@ -12567,10 +13481,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: bf137be1775644934990c7584dd79470, type: 3}
     heldSprite: {fileID: 21300000, guid: bf137be1775644934990c7584dd79470, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1579501021
@@ -12621,10 +13535,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.43833113, y: -1.3495836}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -12635,8 +13549,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 26.357681, y: 22.593359}
   m_EdgeRadius: 0
+--- !u!50 &1579501024
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579501018}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1580736063
 GameObject:
   m_ObjectHideFlags: 0
@@ -12782,6 +13717,8 @@ GameObject:
   - component: {fileID: 1596677523}
   - component: {fileID: 1596677522}
   - component: {fileID: 1596677521}
+  - component: {fileID: 1596677525}
+  - component: {fileID: 1596677524}
   m_Layer: 5
   m_Name: Ring_9
   m_TagString: Untagged
@@ -12806,7 +13743,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1303, y: -93}
+  m_AnchoredPosition: {x: 1305, y: -93}
   m_SizeDelta: {x: 73.41, y: 29.36}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1596677521
@@ -12828,10 +13765,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 38a4ac85145f143e79f9059692cd01e9, type: 3}
     heldSprite: {fileID: 21300000, guid: 1854b35014d794a4592dfe1b85e9a269, type: 3}
   returnToDefault: 1
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1596677522
@@ -12872,6 +13809,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1596677519}
   m_CullTransparentMesh: 1
+--- !u!50 &1596677524
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596677519}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &1596677525
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596677519}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 70, y: 30}
+  m_EdgeRadius: 0
 --- !u!1 &1625199048
 GameObject:
   m_ObjectHideFlags: 0
@@ -13229,6 +14213,7 @@ MonoBehaviour:
   sparkleSFX: {fileID: 8300000, guid: 9eee3103d8a384386860fabd9245e11d, type: 3}
   bloopSFX: {fileID: 8300000, guid: 2eafb677e6b794b3b8d2eb6e9c7b597a, type: 3}
   isDesignReady: 0
+  butterflyACC: {fileID: 1087414475}
 --- !u!4 &1679317616
 Transform:
   m_ObjectHideFlags: 0
@@ -13353,6 +14338,7 @@ GameObject:
   - component: {fileID: 1682796094}
   - component: {fileID: 1682796093}
   - component: {fileID: 1682796096}
+  - component: {fileID: 1682796097}
   m_Layer: 5
   m_Name: AL_19
   m_TagString: Untagged
@@ -13377,7 +14363,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27.119923, y: -98.5}
+  m_AnchoredPosition: {x: 32.600086, y: -98.5}
   m_SizeDelta: {x: 24.95, y: 25.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1682796093
@@ -13399,10 +14385,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: fbba088714b664181a72c77238ab9ffd, type: 3}
     heldSprite: {fileID: 21300000, guid: fbba088714b664181a72c77238ab9ffd, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1682796094
@@ -13453,7 +14439,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -13467,8 +14453,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 25, y: 25}
   m_EdgeRadius: 0
+--- !u!50 &1682796097
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682796091}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1707451857
 GameObject:
   m_ObjectHideFlags: 0
@@ -13482,6 +14489,7 @@ GameObject:
   - component: {fileID: 1707451860}
   - component: {fileID: 1707451859}
   - component: {fileID: 1707451862}
+  - component: {fileID: 1707451863}
   m_Layer: 5
   m_Name: AL_11
   m_TagString: Untagged
@@ -13506,7 +14514,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -68.42002, y: -20.84}
+  m_AnchoredPosition: {x: -67.59992, y: -20.84}
   m_SizeDelta: {x: 71.35, y: 42.44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1707451859
@@ -13528,10 +14536,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 89ef26c862da74ffabb436b27b9832c5, type: 3}
     heldSprite: {fileID: 21300000, guid: 89ef26c862da74ffabb436b27b9832c5, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1707451860
@@ -13582,10 +14590,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.62059784, y: 0.8964577}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -13596,8 +14604,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 65.88997, y: 38.651306}
   m_EdgeRadius: 0
+--- !u!50 &1707451863
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707451857}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1711557192
 GameObject:
   m_ObjectHideFlags: 0
@@ -13636,7 +14665,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 72.4, y: 125.54}
+  m_AnchoredPosition: {x: 70.7, y: 125.54}
   m_SizeDelta: {x: 51.83, y: 48.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1711557194
@@ -13658,8 +14687,8 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 08435f2cfccf44168b783e98ab3f0e16, type: 3}
     heldSprite: {fileID: 21300000, guid: 08435f2cfccf44168b783e98ab3f0e16, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
   accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
@@ -13712,10 +14741,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.1129761, y: -3.2592888}
+  m_Offset: {x: 0.004173279, y: -1.5960541}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -13726,7 +14755,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 33.43396, y: 28.505196}
+  m_Size: {x: 48.218216, y: 42.919853}
   m_EdgeRadius: 0
 --- !u!50 &1711557198
 Rigidbody2D:
@@ -13842,6 +14871,7 @@ GameObject:
   - component: {fileID: 1752245608}
   - component: {fileID: 1752245607}
   - component: {fileID: 1752245610}
+  - component: {fileID: 1752245611}
   m_Layer: 5
   m_Name: AL_28
   m_TagString: Untagged
@@ -13866,7 +14896,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 110, y: -170}
+  m_AnchoredPosition: {x: 107.70002, y: -164.4}
   m_SizeDelta: {x: 51.78, y: 50.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1752245607
@@ -13888,10 +14918,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 07e8973d6e13a40f6bc7f2a3685037b7, type: 3}
     heldSprite: {fileID: 21300000, guid: 07e8973d6e13a40f6bc7f2a3685037b7, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1752245608
@@ -13942,7 +14972,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -13956,8 +14986,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 50, y: 50}
   m_EdgeRadius: 0
+--- !u!50 &1752245611
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752245605}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1764941705
 GameObject:
   m_ObjectHideFlags: 0
@@ -14369,6 +15420,7 @@ GameObject:
   - component: {fileID: 1780633601}
   - component: {fileID: 1780633600}
   - component: {fileID: 1780633603}
+  - component: {fileID: 1780633604}
   m_Layer: 5
   m_Name: AL_18
   m_TagString: Untagged
@@ -14393,7 +15445,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.7, y: -98.5}
+  m_AnchoredPosition: {x: 1.4, y: -98.5}
   m_SizeDelta: {x: 24.95, y: 25.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1780633600
@@ -14415,10 +15467,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: cd285110516914062a5255d1fa099939, type: 3}
     heldSprite: {fileID: 21300000, guid: cd285110516914062a5255d1fa099939, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1780633601
@@ -14469,7 +15521,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -14483,8 +15535,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 25, y: 25}
   m_EdgeRadius: 0
+--- !u!50 &1780633604
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780633598}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1786678008
 GameObject:
   m_ObjectHideFlags: 0
@@ -14856,6 +15929,8 @@ GameObject:
   - component: {fileID: 1856277565}
   - component: {fileID: 1856277564}
   - component: {fileID: 1856277563}
+  - component: {fileID: 1856277567}
+  - component: {fileID: 1856277566}
   m_Layer: 5
   m_Name: Ring_12
   m_TagString: Untagged
@@ -14902,10 +15977,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 4244476360fac4ac79aca60f26fadcd4, type: 3}
     heldSprite: {fileID: 21300000, guid: 57c61b6dfc4bb4c9b86d85afb2e35e06, type: 3}
   returnToDefault: 1
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1856277564
@@ -14946,6 +16021,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1856277561}
   m_CullTransparentMesh: 1
+--- !u!50 &1856277566
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856277561}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &1856277567
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856277561}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 60, y: 60}
+  m_EdgeRadius: 0
 --- !u!1 &1871521134
 GameObject:
   m_ObjectHideFlags: 0
@@ -15092,6 +16214,7 @@ GameObject:
   - component: {fileID: 1885945545}
   - component: {fileID: 1885945544}
   - component: {fileID: 1885945547}
+  - component: {fileID: 1885945548}
   m_Layer: 5
   m_Name: AL_21
   m_TagString: Untagged
@@ -15116,7 +16239,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 87.9801, y: -98.5}
+  m_AnchoredPosition: {x: 98.2, y: -98.5}
   m_SizeDelta: {x: 24.95, y: 25.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1885945544
@@ -15138,10 +16261,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: b0c734bfe518d4a6eabb4a36fc543fe6, type: 3}
     heldSprite: {fileID: 21300000, guid: b0c734bfe518d4a6eabb4a36fc543fe6, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1885945545
@@ -15192,7 +16315,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -15206,8 +16329,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 25, y: 25}
   m_EdgeRadius: 0
+--- !u!50 &1885945548
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885945542}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1923151266
 GameObject:
   m_ObjectHideFlags: 0
@@ -15339,6 +16483,7 @@ GameObject:
   - component: {fileID: 1958334628}
   - component: {fileID: 1958334627}
   - component: {fileID: 1958334630}
+  - component: {fileID: 1958334631}
   m_Layer: 5
   m_Name: AL_16
   m_TagString: Untagged
@@ -15363,7 +16508,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -60.7, y: -98.5}
+  m_AnchoredPosition: {x: -61.700012, y: -98.5}
   m_SizeDelta: {x: 24.95, y: 25.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1958334627
@@ -15385,10 +16530,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: 708f5a27a2f54426ca40a7b6a35759cd, type: 3}
     heldSprite: {fileID: 21300000, guid: 708f5a27a2f54426ca40a7b6a35759cd, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1958334628
@@ -15439,7 +16584,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -15453,8 +16598,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 25, y: 25}
   m_EdgeRadius: 0
+--- !u!50 &1958334631
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958334625}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1958634854
 GameObject:
   m_ObjectHideFlags: 0
@@ -15601,6 +16767,7 @@ GameObject:
   - component: {fileID: 1992652242}
   - component: {fileID: 1992652241}
   - component: {fileID: 1992652244}
+  - component: {fileID: 1992652245}
   m_Layer: 5
   m_Name: AL_13
   m_TagString: Untagged
@@ -15625,7 +16792,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 77, y: -20.84}
+  m_AnchoredPosition: {x: 74.600075, y: -20.84}
   m_SizeDelta: {x: 71.35, y: 42.44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1992652241
@@ -15647,10 +16814,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: a630b0c1712e74668b071d04052525d9, type: 3}
     heldSprite: {fileID: 21300000, guid: a630b0c1712e74668b071d04052525d9, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &1992652242
@@ -15701,10 +16868,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.045074463, y: -0.06571674}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -15715,8 +16882,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 68.811646, y: 41.566772}
   m_EdgeRadius: 0
+--- !u!50 &1992652245
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992652239}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &2003654694
 GameObject:
   m_ObjectHideFlags: 0
@@ -15752,7 +16940,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -132.5, y: -65.97499}
+  m_AnchoredPosition: {x: -140, y: -65.97499}
   m_SizeDelta: {x: 181, y: 20.050003}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2003654696
@@ -16192,6 +17380,7 @@ GameObject:
   - component: {fileID: 2072659134}
   - component: {fileID: 2072659133}
   - component: {fileID: 2072659136}
+  - component: {fileID: 2072659137}
   m_Layer: 5
   m_Name: AL_15
   m_TagString: Untagged
@@ -16216,7 +17405,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -88.51994, y: -98.5}
+  m_AnchoredPosition: {x: -92.2, y: -98.5}
   m_SizeDelta: {x: 24.95, y: 25.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2072659133
@@ -16238,10 +17427,10 @@ MonoBehaviour:
     defaultSprite: {fileID: 21300000, guid: b655950def4b54d1bb9ac6ea750093be, type: 3}
     heldSprite: {fileID: 21300000, guid: b655950def4b54d1bb9ac6ea750093be, type: 3}
   returnToDefault: 0
-  butterfly: {fileID: 0}
-  butterflyBtn: {fileID: 0}
+  butterfly: {fileID: 1087414475}
+  butterflyBtn: {fileID: 982125639}
   handPanel: {fileID: 756524563}
-  accessoryPanel: {fileID: 0}
+  accessoryPanel: {fileID: 325588580}
   startingPos: {x: 0, y: 0}
   GMScript: {fileID: 1679317614}
 --- !u!114 &2072659134
@@ -16292,10 +17481,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.000061035156, y: 0.48349047}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -16306,5 +17495,26 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 23.047161, y: 23.627407}
   m_EdgeRadius: 0
+--- !u!50 &2072659137
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072659131}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

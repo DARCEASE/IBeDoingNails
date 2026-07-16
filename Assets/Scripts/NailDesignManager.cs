@@ -25,6 +25,7 @@ public class NailDesignManager : MonoBehaviour
     public AudioClip mouseClickSFX;
     public AudioClip sparkleSFX;
     public AudioClip bloopSFX;
+    public bool isDesignReady;
     void Start()
     {
         
@@ -55,6 +56,8 @@ public class NailDesignManager : MonoBehaviour
     }
     public void DesignReady()
     {   
+        //disable dragging 
+        isDesignReady = true;
         audioSource.PlayOneShot(sparkleSFX);
         finalDesignPanel.gameObject.SetActive(true);
         R_handPanel = Instantiate(L_handPanel, transform.localPosition, Quaternion.identity);// instatiate new hand 

@@ -18,6 +18,7 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     public Transform accessoryPanel;
     Camera cam;
     public Vector2 startingPos;
+    public GameObject GMScript; 
 
      public void Start()
      {
@@ -58,7 +59,7 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
     public void OnEndDrag(PointerEventData eventData)
     {
      Debug.Log("END Dragging");
-     transform.SetParent(handPanel); // reparent the item to the panel/grid its on 
+     //transform.SetParent(handPanel); // reparent the item to the panel/grid its on 
         //if the accessory was placed within bounds, put it in the hand panel
         // else if the accessory is not within bounds, reparent it back, and snap it to the original position
 
@@ -67,27 +68,31 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
         if (returnToDefault == true)
          {
             spriteImage.sprite = spriteOptions.defaultSprite;  
-            transform.SetParent(handPanel);
+            //transform.SetParent(handPanel);
          }
    }
- public void OnCollisionStay2D(Collision2D collision) // as long as the accessory is in bounds, do this
+ public void OnTriggerStay2D(Collider2D stay) // as long as the accessory is in bounds, do this
     {
 
         Debug.Log("I AM CONNECTING Stay");
         transform.SetParent(handPanel);
     }
-    public void OnCollisionExit2D(Collision2D exit) //when the accessory leaves bounds, do this
+    public void OnTriggerExit2D(Collider2D exit) //when the accessory leaves bounds
     {
         Debug.Log("iM NO LONGER CONNECTED, exit");
-        transform.SetParent(accessoryPanel);
+      
+        if(GMScript.GetComponent<NailDesignManager>().isDesignReady == false) // IS THE FINAL DESIGN SET YET AND WERE LOOKING AT THE RESULTS? no. 
+        {
+          transform.SetParent(accessoryPanel); // Ok as youre editing, make sure to go back to the accessory panel, if its ready stay in handpanel 
+        }
     }
-
+ 
     public void ButterflyFlyAway()
    {
      butterfly.SetActive(true); //just show the butterfly dog 
      butterflyBtn.SetActive(false);
    }
-   
+  
     
 
 }

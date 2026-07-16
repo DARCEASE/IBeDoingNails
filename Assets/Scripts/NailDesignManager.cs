@@ -28,6 +28,7 @@ public class NailDesignManager : MonoBehaviour
     public bool isDesignReady;
     public GameObject butterflyACC;
     public bool butterflyChosen;
+      public GameObject draggingScript; 
 
     void Start()
     {
@@ -65,10 +66,11 @@ public class NailDesignManager : MonoBehaviour
     }
     public void DesignReady()
     {   
-        //disable dragging 
+         
         isDesignReady = true;
         audioSource.PlayOneShot(sparkleSFX);
         finalDesignPanel.gameObject.SetActive(true);
+
         R_handPanel = Instantiate(L_handPanel, transform.localPosition, Quaternion.identity);// instatiate new hand 
        
         L_handPanel.transform.SetParent(finalDPanel); 
@@ -81,11 +83,14 @@ public class NailDesignManager : MonoBehaviour
         R_handPanel.GetComponent<RectTransform>().localScale = new Vector3(1f, 1f, 0f);
         R_handPanel.GetComponent<RectTransform>().rotation = Quaternion.Euler(0f, 180f, -6f); //euler is specific to UI elements 
         
+        //draggingScript.GetComponent<DragUI>().enabled = false; // DISABLE DRAGGING
+        
         if (butterflyChosen == true)
         {
             RectTransform rectT = butterflyACC.GetComponent<RectTransform>(); //nickname for rect transform
             rectT.localPosition = new Vector3(rectT.localPosition.x, rectT.localPosition.y, 0f); // force the butterfly to have a z of 0f
         }
+
         
     }
     

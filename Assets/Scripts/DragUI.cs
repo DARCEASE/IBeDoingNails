@@ -99,8 +99,13 @@ public class DragUI : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHa
            
             Debug.Log("I returnth home");
             transform.SetParent(accessoryPanel); // Ok as youre editing, make sure to go back to the accessory panel, if its ready stay in handpanel 
-            //set transform.z to 0 
+            //stop dragging 
+            
            
+          }
+          if(GMScript.GetComponent<NailDesignManager>().isDesignReady == true)
+          {
+            gameObject.GetComponent<DragUI>().enabled = false;
           }
 
        }
